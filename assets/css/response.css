@@ -1,7 +1,67 @@
-@media (max-width: 575px ){
+@media (max-width: 399px ){
     #Giai-phap .Dang-ky-ngay .outfiz {
-        padding-left: 20px;
-        padding-right: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .outfiz h2{
+        font-size: 40px;
+        margin-top: 0;
+        letter-spacing: 2px;
+    } 
+    .outfiz .content {
+        font-size: 28px;
+    }
+    .Loi-ich{
+        margin:0;
+    }
+    .brand{
+        font-size: 16px;
+    }
+    
+    .Quan-ly .content{
+        font-size: 16px;
+    }
+    .noi-dung{
+        font-size: 14px;
+    }
+    .dia-chi{
+        font-size: 12px;
+    }
+    
+    #Lien-lac{
+        padding:20px;
+    }
+    
+    .form-control-1{
+        font-size: 12px;
+    }
+    .goi-giai-phap{
+        height: 300px;
+        font-size:12px;
+    }
+    .link-fb{
+        height: 33px;
+    }
+    .form-group{
+        padding:0;
+    }
+    .quy-trinh{
+        font-size: 16px;
+    }
+    .circle{
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .loi-noi-dau{
+        padding: 20px !important   ;
+    }
+}
+@media (min-width: 400px ) and (max-width: 575px ){
+    #Giai-phap .Dang-ky-ngay .outfiz {
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .outfiz h2{
         font-size: 40px;
@@ -27,21 +87,11 @@
     .dia-chi{
         font-size: 12px;
     }
-    .quy-trinh{
-        font-size: 15px;
-    }
-    .circle{
-        height: 60px;
-        width: 60px;
-        line-height: 60px;
-        font-size: 30px;
-    }
+    
     #Lien-lac{
         padding:20px;
     }
-    .form{
-        font-size: 12px;
-    }
+    
     .form-control-1{
         font-size: 12px;
     }
@@ -51,6 +101,12 @@
     }
     .link-fb{
         height: 33px;
+    }
+    .form-group{
+        padding:0;
+    }
+    .loi-noi-dau{
+        padding: 20px !important   ;
     }
 }
 
@@ -81,27 +137,13 @@
     .dia-chi{
         font-size: 12px;
     }
-    .quy-trinh{
-        font-size: 20px;
-    }
-    .circle{
-        height: 80px;
-        width: 80px;
-        line-height: 80px;
-    }
+    
     #Lien-lac{
         padding:20px;
     }
-    .form-control-1{
-        font-size: 12px;
-    }
-    .form{
-        font-size: 12px;
-    }
-    .btn-dang-ky{
-        width: 200px;
-        font-size: 20px;
-    }
+    
+    
+    
 }
 /* md */
 @media (min-width: 768px) and (max-width:991px) {
@@ -112,7 +154,7 @@
     .outfiz .content {
         font-size: 20px;
     }
-    .brand{
+    .brand{ 
         font-size: 20px;
     }
     
@@ -156,6 +198,41 @@
         position: relative;
         height: 400px;
     }
+    .dia-chi{
+        font-size: 10px;
+    }
     
 
+}
+@media (max-width: 767px) {
+    .res-quy-trinh{
+        display: flex;
+    }
+    .tron{
+        display: block;
+    }
+    .so{
+        padding:20px;
+    }
+    .chu{
+        padding:20px;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tron::before{
+        width: 3px;
+        height:80%;
+        right:50%;
+        top:10%;
+        
+        transform: translateX(50%); 
+    }
+    
+}
+@media (max-width: 399px ){
+    .chu{
+        height: 130px;
+    }
 }

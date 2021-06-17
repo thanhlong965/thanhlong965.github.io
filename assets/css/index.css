@@ -715,10 +715,10 @@ img{
 #title{
   display: flex;
   justify-content: center;
-  padding:30px;
+  padding:10px;
 }
 #title img{
-  height: 80px;
+  height: 50px;
   width: auto;
   margin: 0 auto;
 }
@@ -806,7 +806,7 @@ img{
 }
 .goi-giai-phap .hinh-anh
 {
-  padding:0 10%;
+  
   height: 100%;
 }
 .noi-dung{
@@ -833,7 +833,7 @@ img{
   color: #fcb43d;
 }
 #Quy-trinh{
-  padding:30px;
+  padding:30px 0;
 }
 .tron{
   position: relative;
@@ -845,7 +845,7 @@ img{
   content: "";
   position: absolute;
   width: 80%;
-  height: 5px;
+  height: 3px;
   top:50%;
   transform: translateY(-100%);
   background-color: #fcb43d;
@@ -854,7 +854,7 @@ img{
 
 .circle{
   display: inline-block;
-  background: gray;
+  background: #595959;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -867,7 +867,7 @@ img{
   text-align: center;
   font-size: 25px;
   font-weight: 600;
- 
+  color:#313131;
   text-transform: uppercase;
   line-height: 30px;
 }
@@ -909,6 +909,9 @@ img{
 }
 .form-group{
   justify-content: space-between;
+}
+.form-group .label{
+  color: #262626;
 }
 .form-control-1{
   display: inline;
@@ -972,7 +975,7 @@ label{
   border-radius: 4px;
 }
 #Lien-lac{
-  padding: 50px;
+  padding: 30px;
   background: #2e2e2e;
   color: white;
   font-size: 14px;
@@ -997,5 +1000,6 @@ i{
 .cap-phep{
   width: 100%;
   text-align: right;
+  
 }
 
