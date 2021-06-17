@@ -22,7 +22,7 @@
         font-size: 16px;
     }
     .noi-dung{
-        font-size: 14px;
+        font-size: 12px;
     }
     .dia-chi{
         font-size: 12px;
@@ -56,6 +56,9 @@
     }
     .loi-noi-dau{
         padding: 20px !important   ;
+    }
+    .tieu-de{
+        font-size: 12px;
     }
 }
 @media (min-width: 400px ) and (max-width: 575px ){
