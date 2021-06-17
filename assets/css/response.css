@@ -18,9 +18,7 @@
         font-size: 16px;
     }
     
-    .Quan-ly .content{
-        font-size: 16px;
-    }
+    
     .noi-dung{
         font-size: 12px;
     }
@@ -31,7 +29,9 @@
     #Lien-lac{
         padding:20px;
     }
-    
+    .cam-on{
+        font-size: 12px;
+    }
     .form-control-1{
         font-size: 12px;
     }
@@ -57,7 +57,7 @@
     .loi-noi-dau{
         padding: 20px !important   ;
     }
-    .tieu-de{
+    .giai-phap .tieu-de{
         font-size: 12px;
     }
 }
@@ -81,9 +81,7 @@
         font-size: 16px;
     }
     
-    .Quan-ly .content{
-        font-size: 16px;
-    }
+    
     .noi-dung{
         font-size: 18px;
     }
